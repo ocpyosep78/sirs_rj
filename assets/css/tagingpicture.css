@@ -1,0 +1,77 @@
+/*
+ * tagingpicture.css
+ *-------------------------------------------
+ * @author : AMP - RSHS2014
+ *
+*/
+
+.dot_taging{
+	padding: 5px;
+	background-color: rgba(210,0,0,0.5);
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	border: 2px solid rgba(0,0,0,0.5);
+	z-index: 1000;
+	display: block;
+}
+
+.dot_input{
+	margin-top: 20px;
+	padding: 8px;
+	width: 218px;
+	background-color: rgba(0,0,0,0.5);
+	border: thin solid rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 10px;
+	text-align: left;
+	margin-left: -100px;
+}
+
+.dot_input > input, .dot_input > button{
+	border: thin solid transparent;
+	font-size: 10px;
+	padding: 2px 4px;
+}
+
+.dot_input > button{
+	background-color: #86B5DE;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.dot_input > #dot_input_cancel{
+	background-color: #EEE;
+	color: #000;
+}
+
+.dot_input > .comm{
+	width: 200px;
+	padding: 3px;
+	border: thin solid transparent;
+	border-bottom: thin solid #000;
+}
+
+.stopTaging, .startTaging{
+	text-transform: capitalize;
+	display: block;
+	color: #FFF;
+}
+
+.taging_overlay{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1000;
+	text-align: center;
+	padding: 10px;
+}
+
+.taging_overlay > .done_taging{
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
